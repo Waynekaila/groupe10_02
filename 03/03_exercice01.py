@@ -1,4 +1,3 @@
-# Demander les informations
 age = int(input("Entrez votre âge : "))
 pays = input("Entrez votre pays : ").lower()
 

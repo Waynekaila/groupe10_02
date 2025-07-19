@@ -1,5 +1,10 @@
 try:
-    a, b = float(input("Nombre 1 : ")), float(input("Nombre 2 : "))
-    print(f"Résultat : {a / b}")
+    a= float(input("Nombre 1 : "))
+    b =float(input("Nombre 2 : "))
+    result = a/b
 except ZeroDivisionError:
-    print("Division par zéro !")
+    print("Erreur : Division par zéro !")
+
+else:
+    print(f"Résultat : {result}")
+    

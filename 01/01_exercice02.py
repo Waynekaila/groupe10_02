@@ -1,8 +1,13 @@
-usd = float(input("Montant en USD : "))
-eur = usd * 0.93
-cfa = usd * 610
-gbp = usd * 0.79
+nom_produit = "Casque Bluetooth"
+prix = 150.0
+stock = 35
+remise = 0.15
 
-print(f"{usd} USD = {eur:.2f} EUR")
-print(f"{usd} USD = {cfa:.2f} CFA")
-print(f"{usd} USD = {gbp:.2f} GBP")
+
+prix_final = prix * (1 - remise)
+
+print(f"Produit : {nom_produit}")
+print(f"Prix initial : {prix} €")
+print(f"Remise : {remise * 100}%")
+print(f"Prix final : {prix_final:.2f} €")
+print(f"Stock disponible : {stock}")

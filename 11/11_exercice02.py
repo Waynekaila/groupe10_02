@@ -6,4 +6,6 @@ def stats(liste):
 
 nombres = [float(x) for x in input("Entrez des nombres : ").split()]
 s, m, mx = stats(nombres)
-print(f"Somme : {s}\nMoyenne : {m:.2f}\nMaximum : {mx}")
+print(f"Somme : {s}")
+print(f"Moyenne : {m:.2f}")      
+print(f"Maximum : {mx}")
